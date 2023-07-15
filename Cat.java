@@ -28,6 +28,6 @@ class Cat{
         this.age = age;
     }
     public void greet(){
-        System.out.printf("Мяу! Меня зовут %s. Мне %d года(лет). Мой владелец - %s", name, age, owner.getName());
+        System.out.printf("Мяу! Меня зовут %s. Мне %d года(лет). Мой владелец - %s \n", name, age, owner.getName());
     }
 }
