@@ -21,7 +21,7 @@ public abstract class Pet {
     public int getAge(){
         return age;
     }
-    public void setName(int age){
+    public void setAge(int age){
         this.age = age;
     }
 
