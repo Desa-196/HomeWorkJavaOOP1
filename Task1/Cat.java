@@ -23,4 +23,11 @@ public class Cat extends Pet implements Caudate{
         else System.out.println("Ошибка установки возраста. Слишком большой возраст!");
     }
 
+    //Перегрузка метода
+    public void setAge(double age){
+        age = Math.round(age);
+        if(age <= 25) this.age = (int)age;
+        else System.out.println("Ошибка установки возраста. Слишком большой возраст!");
+    }
+
 }
